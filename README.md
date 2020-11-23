@@ -55,7 +55,7 @@ The balanced accuracy score improved to about 79%.<br>The high_risk precision is
 <p align="center">
   <img src="https://user-images.githubusercontent.com/68669675/99929696-c5238500-2d13-11eb-9257-54bc815da0b0.png"><img src="https://user-images.githubusercontent.com/68669675/99929697-c5bc1b80-2d13-11eb-82c9-85c19344397a.png"><img src="https://user-images.githubusercontent.com/68669675/99929698-c5bc1b80-2d13-11eb-90ee-e20d9994b95d.png">
 </p>
-Now, the balanced accuracy score high to about 93%.<br>The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion.
+Now, the balanced accuracy score is high to about 93%.<br>The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion.
 <br><br>
 
 ## Summary
