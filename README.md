@@ -25,21 +25,21 @@ The balanced accuracy score is 65%.<br>The high_risk precision is about 1% only 
 
 ### SMOTE model
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/68669675/99928062-327fe780-2d0d-11eb-9789-3b50bce5822c.png"><img src="https://user-images.githubusercontent.com/68669675/99928063-33187e00-2d0d-11eb-8d86-e61bc3d1df73.png"><img src="https://user-images.githubusercontent.com/68669675/99928064-33b11480-2d0d-11eb-97d5-f35aa12a2ad9.png">
+  <img src="https://user-images.githubusercontent.com/68669675/99928062-327fe780-2d0d-11eb-9789-3b50bce5822c.png"><br><img src="https://user-images.githubusercontent.com/68669675/99928063-33187e00-2d0d-11eb-8d86-e61bc3d1df73.png"><img src="https://user-images.githubusercontent.com/68669675/99928064-33b11480-2d0d-11eb-97d5-f35aa12a2ad9.png">
 </p>
 The results are pretty similar to the previous model.<br>The balanced accuracy score is 64%.<br>The high_risk precision is about 1% only with 63% sensitivity which makes a F1 of 2% only.<br>Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 66%.
 <br><br>
 
 ### ClusterCentroids model
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/68669675/99928471-e8980100-2d0e-11eb-81fa-343e9a2f2b4c.png"><img src="https://user-images.githubusercontent.com/68669675/99928472-e9309780-2d0e-11eb-95dd-697a356b8720.png"><img src="https://user-images.githubusercontent.com/68669675/99928475-e9309780-2d0e-11eb-9cb1-5bb5497a7e93.png">
+  <img src="https://user-images.githubusercontent.com/68669675/99928471-e8980100-2d0e-11eb-81fa-343e9a2f2b4c.png"><br><img src="https://user-images.githubusercontent.com/68669675/99928472-e9309780-2d0e-11eb-95dd-697a356b8720.png"><img src="https://user-images.githubusercontent.com/68669675/99928475-e9309780-2d0e-11eb-9cb1-5bb5497a7e93.png">
 </p>
 Here the balanced accuracy score is down to about 52%.<br>The high_risk precision is still 1% only with 63% sensitivity which makes a F1 of 1%.<br>Due to the high number of false positives, the low_risk sensitivity is only 40%.
 <br><br>
 
 ### SMOTEENN model
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/68669675/99928917-d15a1300-2d10-11eb-9b0b-ca9fc4d9d51b.png"><img src="https://user-images.githubusercontent.com/68669675/99928919-d1f2a980-2d10-11eb-84ea-3925e5ce28bb.png"><img src="https://user-images.githubusercontent.com/68669675/99928920-d1f2a980-2d10-11eb-9836-51dfff33a7fb.png">
+  <img src="https://user-images.githubusercontent.com/68669675/99928917-d15a1300-2d10-11eb-9b0b-ca9fc4d9d51b.png"><br><img src="https://user-images.githubusercontent.com/68669675/99928919-d1f2a980-2d10-11eb-84ea-3925e5ce28bb.png"><img src="https://user-images.githubusercontent.com/68669675/99928920-d1f2a980-2d10-11eb-9836-51dfff33a7fb.png">
 </p>
 The balanced accuracy score is about 62%.<br>The high_risk precision is still 1% only with 68% sensitivity which makes a F1 of only 2%.<br>Due to the high number of false positives, the low_risk sensitivity is 57%.
 <br><br>
@@ -53,7 +53,7 @@ The balanced accuracy score improved to about 79%.<br>The high_risk precision is
 
 ### EasyEnsembleClassifier model
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/68669675/99929696-c5238500-2d13-11eb-9257-54bc815da0b0.png"><img src="https://user-images.githubusercontent.com/68669675/99929697-c5bc1b80-2d13-11eb-82c9-85c19344397a.png"><img src="https://user-images.githubusercontent.com/68669675/99929698-c5bc1b80-2d13-11eb-90ee-e20d9994b95d.png">
+  <img src="https://user-images.githubusercontent.com/68669675/99929696-c5238500-2d13-11eb-9257-54bc815da0b0.png"><br><img src="https://user-images.githubusercontent.com/68669675/99929697-c5bc1b80-2d13-11eb-82c9-85c19344397a.png"><img src="https://user-images.githubusercontent.com/68669675/99929698-c5bc1b80-2d13-11eb-90ee-e20d9994b95d.png">
 </p>
 Now, the balanced accuracy score is high to about 93%.<br>The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion.
 <br><br>
